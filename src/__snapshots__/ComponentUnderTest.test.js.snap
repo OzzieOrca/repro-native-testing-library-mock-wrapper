@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`native-testing-library should match snapshot 1`] = `
+<View>
+  <ButtonWrapper
+    onPress={[MockFunction]}
+    testID="my-button"
+  >
+    <Text
+      testID="main-content"
+    >
+      Main Content
+    </Text>
+  </ButtonWrapper>
+</View>
+`;
+
+exports[`react-native-testing-library should match snapshot 1`] = `
+<View>
+  <ButtonWrapper
+    onPress={[MockFunction]}
+    testID="my-button"
+  >
+    <Text
+      testID="main-content"
+    >
+      Main Content
+    </Text>
+  </ButtonWrapper>
+</View>
+`;
